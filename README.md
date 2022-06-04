@@ -42,13 +42,18 @@ Z -> A
 In this case, the shift is 1. This means that the letter A is now B, B is now C, and so on. The algorithm used to encrypt the message is called a Caesar Cipher. The algorithm is simple and easy to understand however, it is not very secure. It is not recommended to use this algorithm for anything other than testing. Read more about it [here](https://en.wikipedia.org/wiki/Caesar_cipher).
 
 ## What I Learnt
-
+- More understanding of how to use `indexOf` in JS
+- How to sit and write my own algorithms 
+- How to do some research on algorithms.
 ## References
 
 -   [MAT 112 Integers and Modern Applications for the Uninitiated](https://mathstats.uncg.edu/sites/pauli/112/HTML/seccaesar.html)
+-   [CSS of my previous work](https://github.com/neophyte-programmer/random-password-generator)
+-   [Geeks for Geeks - Caesar Cipher in Cryptography](https://www.geeksforgeeks.org/caesar-cipher-in-cryptography/)
 
 ## Live Demo
 
-You can see the live demo of this website [here](https://crypto-encryptor.herokuapp.com/).
+You can see the live demo of this website [here](https://nutifafas-encrytor.netlify.app/).
 
 ## How It Looks
+![](preview.png)
