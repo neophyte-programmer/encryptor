@@ -12,24 +12,15 @@
     <div class="container">
         <div class="inputBox">
             <h2 class="title">
-                Encryptor
+                Encryptor / Decryptor
             </h2>
             <form name="encryptor" action="/" method="post">
                 <input type="text" name="textToEncrypt" placeholder="Text to Encrypt">
-                <div id="btn" onclick="encryptText()">Encrypt</div>
+                <div id="btn" onclick="encryptText()">Encrypt / Decrypt</div>
                 <input type="text" id="encryptedText" readonly="" placeholder="Encrypted Text">
             </form>
         </div>
-        <div class="inputBox">
-            <h2 class="title">
-                Decryptor
-            </h2>
-            <form name="decryptor" action="/" method="post">
-                <input type="text" name="textToDecrypt" placeholder="Text to Decrypt">
-                <div id="btn" onclick="decryptText()">Decrypt</div>
-                <input type="text" id="decryptedText" readonly="" placeholder="Decrypted Text">
-            </form>
-        </div>
+        
     </div>
 
     <script src="app.js"></script>
