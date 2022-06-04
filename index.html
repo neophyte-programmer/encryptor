@@ -5,10 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Encryptor</title>
 </head>
 <body>
 
+    <div class="container">
+        <div class="inputBox">
+            <h2 class="title">
+                Encryptor
+            </h2>
+            <form name="encryptor" action="/" method="post">
+                <input type="text" name="textToEncrypt" placeholder="Text to Encrypt">
+                <div id="btn" onclick="">Encrypt</div>
+                <input type="text" id="password" readonly="" placeholder="Encrypted Text">
+        </div>
+        <div class="inputBox">
+            <h2 class="title">
+                Decryptor
+            </h2>
+            <form name="decryptor" action="/" method="post">
+                <input type="text" name="textToDecrypt" placeholder="Text to Decrypt">
+                <div id="btn" onclick="">Decrypt</div>
+                <input type="text" id="password" readonly="" placeholder="Decrypted Text">
+        </div>
+    </div>
 
     <script src="app.js"></script>
 </body>
