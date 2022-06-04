@@ -16,8 +16,9 @@
             </h2>
             <form name="encryptor" action="/" method="post">
                 <input type="text" name="textToEncrypt" placeholder="Text to Encrypt">
-                <div id="btn" onclick="">Encrypt</div>
+                <div id="btn" onclick="encryptText()">Encrypt</div>
                 <input type="text" id="password" readonly="" placeholder="Encrypted Text">
+            </form>
         </div>
         <div class="inputBox">
             <h2 class="title">
@@ -25,8 +26,9 @@
             </h2>
             <form name="decryptor" action="/" method="post">
                 <input type="text" name="textToDecrypt" placeholder="Text to Decrypt">
-                <div id="btn" onclick="">Decrypt</div>
+                <div id="btn" onclick="decryptText()">Decrypt</div>
                 <input type="text" id="password" readonly="" placeholder="Decrypted Text">
+            </form>
         </div>
     </div>
 
